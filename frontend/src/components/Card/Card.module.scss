@@ -1,0 +1,15 @@
+@import "../../variable.module.scss";
+// @import "../../StyleGlobal.module.scss";
+
+.card {
+  background: $secondaryBackground;
+  // box-shadow: 0px 0px 0.5rem $mainGray;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  & .links {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

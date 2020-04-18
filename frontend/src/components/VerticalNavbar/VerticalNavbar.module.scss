@@ -1,0 +1,22 @@
+@import "../../variable.module.scss";
+.verticalNavbar {
+  & ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-evenly;
+
+    @media (min-width: $bp-tablet) {
+      display: block;
+    }
+    & a {
+      margin-bottom: 1.5rem;
+      margin-right: 1rem;
+      text-align: center;
+      @media (min-width: $bp-tablet) {
+        margin-right: 0;
+        width: 100%;
+      }
+    }
+  }
+}

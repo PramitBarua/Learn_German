@@ -1,0 +1,6 @@
+@import "../../variable.module.scss";
+.addWord {
+  @media (min-width: $bp-tablet) {
+    margin-left: 3rem;
+  }
+}

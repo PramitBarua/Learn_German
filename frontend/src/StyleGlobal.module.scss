@@ -1,0 +1,22 @@
+// -------- global style class -------------------
+
+:global(.btn_primary) {
+  color: white;
+  background: $primaryBtn;
+  border: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  &:hover {
+    color: white;
+    text-decoration: none;
+    background: $primaryBtnDarker;
+  }
+}
+
+:global(.section) {
+  @media (min-width: $bp-tablet) {
+    margin-left: 3rem;
+  }
+}
+/* end of globals */
