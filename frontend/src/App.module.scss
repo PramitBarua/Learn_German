@@ -19,9 +19,11 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-size: 1.6rem;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  // background-color: $primaryBackgroundDark;
 }
 
 a {
@@ -78,7 +80,7 @@ textarea {
 }
 
 .App {
-  max-width: 1400px;
+  max-width: 1200px;
   display: grid;
   grid-template-rows: auto;
 
@@ -87,13 +89,10 @@ textarea {
   padding: 0 3rem;
   color: $primaryColor;
   background-color: $primaryBackground;
+
   @media (min-width: $bp-tablet) {
     grid-template-columns: 1fr 11fr;
   }
-
-  // height: 100vh;
-  // overflow-y: scroll;
-  // scroll-behavior: smooth;
 }
 
 @media only screen and (min-width: $bp-medium-phone) {

@@ -8,7 +8,7 @@ const VerticalNavbar = () => {
     <div className={styles.verticalNavbar}>
       <ul>
         <li>
-          <Link className="btn_primary" to="/">
+          <Link to="/" className="btn_primary">
             Word
           </Link>
         </li>
@@ -20,11 +20,6 @@ const VerticalNavbar = () => {
         <li>
           <Link to="/" className="btn_primary">
             Passage
-          </Link>
-        </li>
-        <li>
-          <Link to="/add/word/" className="btn_primary">
-            Add
           </Link>
         </li>
       </ul>
